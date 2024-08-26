@@ -1,0 +1,17 @@
+/* styles.css */
+.clickable-text {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(212, 255, 214); /* Background color */
+  color: rgb(32, 158, 0); /* Text color */
+  border-radius: 15px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: Arial, sans-serif; /* Font styling */
+  font-size: 16px;
+}
+
+.clickable-text:hover {
+  background-color: rgb(171, 250, 175); /* Darker background on hover */
+}

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Google Play Crash Reporter",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab", "scripting", "identity"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://play.google.com/console/*"],
+      "js": ["config.js", "asana.js", "utils.js", "content.js"],
+      "css": ["styles.css"],
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
