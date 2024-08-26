@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google Play Crash Reporter",
+  "name": "AsanaPlaySync",
   "version": "1.0",
   "permissions": ["storage", "activeTab", "scripting", "identity"],
   "background": {
